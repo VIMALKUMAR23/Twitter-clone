@@ -1,13 +1,15 @@
 import "./App.css";
+import Login from "./components/Login";
 
 function App() {
   return (
     <>
-      <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md justify-center space-y-4 mt-5 i">
-        <h1 className="text-3xl font-bold underline bgre">building x-twitter clone!</h1>
-      </div>
+<div className="">
+<Login/>
+</div>
     </>
   );
 }
 
 export default App;
+                          
