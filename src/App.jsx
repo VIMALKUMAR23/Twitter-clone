@@ -4,12 +4,11 @@ import Login from "./components/Login";
 function App() {
   return (
     <>
-<div className="">
-<Login/>
-</div>
+      <div>
+        <Login />
+      </div>
     </>
   );
 }
 
 export default App;
-                          
