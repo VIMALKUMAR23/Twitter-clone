@@ -1,5 +1,6 @@
 import React from "react";
 import LoginFooter from "./loginFooter/LoginFooter";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -46,9 +47,9 @@ const Login = () => {
           <br />
           <br />
           <h2 className="px-2 font-bold-400 text-2xl w-80">Already have an account?</h2>
-          <button className=" w-80 flex justify-center items-center border bg-black-500 text-blue-500 font-bold py-3 px-4 rounded-full mt-5 ">
+           <Link to={"/"}>          <button className=" w-80 flex justify-center items-center border bg-black-500 text-blue-500 font-bold py-3 px-4 rounded-full mt-5 ">
             Sign in
-          </button>
+          </button></Link>
           
           <LoginFooter/>
         </div>
